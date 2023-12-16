@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500&display=swap");
+
+.team-container
+{
+  
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    height: auto;
+}
+.site-heading h2 {
+display: block;
+font-weight: 700;
+font-size: 30px;
+margin-bottom: 10px;
+
+text-transform: uppercase;
+}
+
+.site-heading h2 span {
+color: #0297a6;
+}
+
+.site-heading h4 {
+display: inline-block;
+padding-bottom: 20px;
+font-size: 20px;
+position: relative;
+text-transform: capitalize;
+z-index: 1;
+}
+
+.site-heading h4::before {
+background:#0297a6 none repeat scroll 0 0;
+bottom: 0;
+content: "";
+height: 2px;
+left: 50%;
+margin-left: -25px;
+position: absolute;
+width: 50px;
+}
+
+.site-heading h2 span {
+color: #0297a6;
+}
+
+.site-heading {
+margin-bottom: 60px;
+overflow: hidden;
+margin-top: -5px;
+text-align: center;
+}
+
+
+
+#team-members{
+  margin-bottom: 30px;
+  width: 100%;
+  margin: 10px 0;
+  text-align: center;
+  font-size: 28px;
+  position: relative;
+  background-color: #ffffff;
+}
+
+#team-members h3 {
+  background-color: #ffffff; /* Same as the parents Background */
+  width: auto;
+  display: inline-block;
+  z-index: 2;
+  padding: 0 20px 0 20px;
+  color: rgb(0, 0, 0);
+  position: relative;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 500;
+  padding-top: 10px;
+  margin: 0;
+}
+
+.articles-container
+{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card{
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 30px;
+    width: 29%;
+    margin: 20px;
+    box-shadow: 0px 0px 1px 0px #888888;
+    background: #f7f5ed;
+}
+.card-image
+{
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+.card-title
+{
+
+  color: #243444;
+  font-family: "Muli", Sans-serif;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  line-height: 1.5em;
+}
+
+.card-content
+{
+
+  background:#ffffff;
+  padding: 40px 20px 20px;
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}
+
+.activator
+{
+  width: 100%;
+}
+
+.card-content p
+{
+  margin-top: 20px;
+}
+
+.card-container-text
+{
+  display: block;
+  color: #fd9800;
+  line-height: 1.5em;
+  height: 55px;
+  overflow-y: hidden;
+font-weight: 500;
+}
+
+.card-container-icons
+{
+  display: block;
+  color: #000000;
+  line-height: 1.5em;
+  height: 55px;
+  overflow-y: hidden;
+}
+
+.social-icons {
+  padding: 0;
+  list-style: none;
+  margin: 1em;
+}
+
+.social-icons li {
+  display: inline;
+  margin: 1.15em;
+  position: relative;
+  font-size: 1.4em;
+}
+
+.card-container-icons {
+  color: #5d6667;
+  top: 0.85em;
+  left: 0.96em;
+  font-size: 1rem;
+}
+
+.card-container-icons a {
+  display: inline-block;
+  text-decoration: none;
+  color: #5d6667;
+  margin: 0 10px 0px 10px;
+  font-size: 25px;
+}
+.row
+{
+  margin-top: 80px;
+}
+
+.row-contact
+{
+  margin-top: 20px;
+  float: left;
+}
+.motasem{
+
+}
+
+.afnan{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  
+
+}
+
+.shatha{
+width: 100%;
+height: 120%;
+object-fit: contain;
+background-color: #007cce;
+
+  
+}
+
+.fa-instagram:hover{
+  color: #0297a6;
+}
+.fa-linkedin:hover{
+  color: #0297a6;
+}
+.fa-github:hover{
+  color: #0297a6;
+}
+.center-shatha-afnan
+{
+  transform: translate(58%, 0%);
+}

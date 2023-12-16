@@ -1,0 +1,103 @@
+.container{
+    position: relative;
+    width: 75%;
+    margin: 45px auto 0px auto;
+    box-shadow: 0px 1px 1px 0px #888888;
+}
+
+.box{
+
+    border: 2px solid #ccc;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+}
+.slider{
+ background-color: #f5f4f4;
+    height: 100%;
+    display: flex;
+    width: 400%;
+    transition: all 0.8s;
+}
+.container section{
+
+    flex-basis: 100%;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.cont .Arr{
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.Arr.Left{
+    left: 10px;
+
+}
+
+.Arr.Right{
+    right: 10px;
+
+}
+
+.cont .Arr:hover{
+    opacity: 1;
+}
+
+#text1 {
+    margin-left: 1%;
+    font-size: 13px;
+    font-weight: 600;
+    /* max-width: 40%; */
+    margin-top: 1%;
+    font-style: italic;
+    font-family: cursive;
+}
+
+#text2 {
+    margin-left: 1%;
+    font-size: 13px;
+    font-weight: 600;
+    /* max-width: 40%; */
+    margin-top: 1%;
+    font-style: italic;
+    font-family: cursive;
+}
+
+#text3 {
+    margin-left: 1%;
+    font-size: 13px;
+    font-weight: 600;
+    /* max-width: 40%; */
+    margin-top: 1%;
+    font-style: italic;
+    font-family: cursive;
+}
+
+#text4 {
+    margin-left: 1%;
+    font-size: 13px;
+    font-weight: 600;
+    /* max-width: 40%; */
+    margin-top: 1%;
+    font-style: italic;
+    font-family: cursive;
+}
+
+.qputimg{
+
+    margin-left: 70px;
+}
+
+.container span{
+
+color: #0297a6;
+}
+#quoteSign{
+    position: absolute;
+}

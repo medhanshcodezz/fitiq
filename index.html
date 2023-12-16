@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="icon" href="assets/logo1.png">
+  <link rel="icon" href="assets/logo1.png">
+  <link rel="stylesheet" href="css/scrollEffect.css">
+  <link rel="stylesheet" href="css/dropdown.css">
+  <link rel="stylesheet" href="css/AboutCards.css">
+  <link rel="stylesheet" href="assets/fontawesome/css/all.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/Cards.css">
+  <link rel="stylesheet" href="css/qouteCss.css">
+  <link rel="stylesheet" href="css/contact-form.css">
+  <link rel="stylesheet" href="css/style.css">
+  <div id="loader"><img src="assets/loader2.gif" alt=""></div>
+  
+</head>
+
+<body onload="preLoad()" id="myPage">
+ 
+  <header>
+    <div class="img-container-header">
+      <a href="index.html"><img class="logo" src="assets/logo22.jpg" alt=""></a>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="#Art">Articles</a>
+      <a href="form.html">Healthy Weight</a>
+    
+      <a href="#contact">Contact Us</a>
+    </nav>
+    <div id="userData">
+      <div class="dropdown">
+        <button style="border-radius: 50%;" onclick="getDataDrop()" class="dropbtn"><i class="fas fa-user"></i></button>
+        <div id="myDropdown" class="dropdown-content">
+          <a id="nameUser"></a>
+          <a id="ageUser"></a>
+          <a id="HeightUser"></a>
+          <a id="WeightUser"></a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="hero">
+      <div class="background-overlay">
+        <div class="hero-text">
+          <h1>Health and Care</h1>
+          <p>Food shouldn’t just taste good—it should give your body the nutrients it needs to fuel you through the day.
+            Learn more about different food groups and the health benefits they offer, as well as how to work these
+            nutrient-packed foods into your diet.</p>
+          <a href="form.html">Calculate Your BMI</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-container">
+
+      <div class="articles-container">
+
+        <div id="Art">
+          <h3>Articles</h3>
+        </div>
+        <div class="effected">
+          <div class="card">
+            <div class="card-image">
+              <img class="activator" src="img/chronic.jpeg">
+            </div>
+            <div class="card-content">
+              <span class="card-title">Chronic diseases<i class="material-icons right"></i></span>
+              <span class="card-container-text">Learn about heart disease, stroke, and diabetes, their
+                relations to food, and how to manage them better through simple changes in lifestyle and eating habits.
+              </span>
+              <p><a href="articles.html#chronic">Read more</a></p>
+            </div>
+          </div>
+
+
+          <div class="card">
+            <div class="card-image">
+              <img class="activator" src="img/baby.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title">Babies Health <i class="material-icons right"></i></span>
+              <span class="card-container-text">Learn more about your children health, how to feed them properly, and
+                making sure that you’re providing them with the nutritions they need to live a happy and healthy
+                life.</span>
+              <p><a href="articles.html#baby">Read more</a></p>
+            </div>
+          </div>
+
+
+          <div class="card">
+            <div class="card-image">
+              <img class="activator" src="img/diet3.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title">Healthy Diet<i class="material-icons right"></i></span>
+              <span class="card-container-text">Learn more about eating for your health, without stricting
+                yourself from eating what you love. How to eat to feel great, have more energy, improve your
+                health, and boost your mood.
+              </span>
+              <p><a href="articles.html#diet">Read more</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+    <div class="Qoutes-container">
+      <div id="Qoutes">
+        <h3>Quotes</h3>
+      </div>
+      <div class="effected">
+        <div class="container">
+          <div id="quoteSign">
+            <img src="img/unnamed.png" alt="">
+          </div>
+          <div class="box">
+
+            <div class="slider">
+              <section>
+                <div class="qputimg">
+                  <img src="img/qoute1.jpg" width="200" height="150">
+                </div>
+                <div id="text1">
+                  ”The scientific truth may be put quite briefly; eat moderately, having an ordinary<br> mixed
+                  diet, and don’t worry.”<br><br><br><span> ~ Robert Hutchison</span>
+                </div>
+
+              </section>
+
+              <section>
+                <div class="qputimg">
+                  <img src="img/qoute2.jpg" width="200" height="150">
+                </div>
+                <div id="text2">
+                  ”Keeping your body healthy is an expression of gratitude to the whole cosmos –<br> the trees, the
+                  clouds, everything.” <br><br><br><span>~ Thich Nhat Hanh</span>
+                </div>
+
+              </section>
+
+              <section>
+                <div class="qputimg">
+                  <img src="img/qoute3.jpg" width="200" height="150">
+                </div>
+                <div id="text3">
+                  ”The doctor of the future will give no medicines, but will interest his patients in <br> the care of
+                  the human frame, in diet, and in the causes and prevention of disease.” <br><br><br><span> ~Thomas
+                    Edison</span>
+                </div>
+
+              </section>
+
+
+              <section>
+                <div id="img4">
+                  <img src="img/qoute4.jpg" width="200" height="150">
+                </div>
+                <div id="text4">
+                  ”It is health that is real wealth and not pieces of gold and silver.” <br><br><br><span>~ Mahatma
+                    Gandhi</span>
+                </div>
+                <div id="text4">
+                  BHARAT MATA KI JAI</span>
+                  </div>
+
+              </section>
+            </div>
+            <div class="cont">
+              <span class="Arr Left"> <img src="img/baseline_keyboard_arrow_left_black_18dp.png" alt=""> </span>
+              <span class="Arr Right"> <img src="img/baseline_keyboard_arrow_right_black_18dp.png" alt=""> </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="contact">
+      <h3>Contact us</h3>
+    </div>
+
+    <div class="effected">
+      <div class="contat-us-section">
+
+        <div class="contact-info">
+          <iframesrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3474.442857807683!2d77.30860407553095!3d29.445075975230846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390c2ec7e25a00d1%3A0x2d013c97c5d532fa!2sHanuman%20Tilla%20Temple%20Shamli!5e0!3m2!1sen!2sin!4v1702733333709!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div class="row-contact">
+            <div class="col-md-12">
+              <div class="site-heading-main">
+                <h2></h2>
+                <div class="line-detail">
+                  <div class="social-back"><i class="fas fa-phone" style="font-size: 13px; margin: 4px;"></i></div>
+                  <h5 class="contact-text-details"> +91 7454965319</h5>
+                </div><br>
+                <div class="line-detail">
+                  <div class="social-back"><i class="far fa-envelope"
+                      style="font-size: 14px; font-weight: 600; margin: 4px;"></i></div>
+                  <h5 class="contact-text-details">medhanshofficial@gmail.com</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="contact-container">
+
+          <form>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" class="input-contact" placeholder="Your name..">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" class="input-contact" placeholder="Your last name..">
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" class="input-contact" placeholder="Write something.."
+              style="height:200px"></textarea>
+            <input type="submit" id="sendMessage" value="Submit" class="confirm">
+          
+            <div id="myModal" class="modal">
+              
+              <div class="modal-content">
+                <p>Thanks for your Message...</p>
+              </div>
+            </div>
+          </form>
+        </div>
+
+
+      </div>
+    </div>
+
+    </div>
+  </main>
+  <footer>
+    <div class="footer-sub">
+      <div class="container-sub">
+        <div class="login_bar">
+          <input type="text" placeholder="   Your Email.." class="button-sub">
+          <span class="login"></span>
+          <span class="subscribe_button">Subscribe</span>
+          <span class="subscribing"></span>
+        </div>
+      </div>
+    </div>
+    <div class="copy-rights">A Medhansh's creation </div>
+    <div class="copy-rights"></div>
+    <div class="footer-link">
+      <a href="https://github.com/medhanshcodezz"><i class="social-icon fab fa-github"></i></a>
+      <a href="https://facebook.com"><i class="social-icon fab fa-facebook"></i></a>
+      <a href="https://twitter.com"><i class="social-icon fab fa-twitter"></i></a>
+    </div>
+  </footer>
+  <script src="js/ScrollingFunc.js"></script>
+  <script src="js/slider.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,130 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+body{
+    background-color: #f7f5ed;
+}
+main{
+    padding: 50px 50px 0 50px;
+    background-color: #f7f5ed;
+}
+#main{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+h1 {
+    font-size: 35px;
+    font-weight: 500;
+    text-align: center;
+    color: #023933;
+    margin-bottom: 20px;
+}
+
+/* ---sidebar--- */
+
+aside{
+    position: fixed;
+    top: 70px;
+    left: 10px;
+    height: 100%;
+    width: 22%;
+    padding: 30px 15px 30px 30px;
+    /* padding-left: 30px; */
+    max-width: 300px;
+    border-right: 2px solid #0239339c;
+}
+aside a{
+    color: black;
+    text-decoration: none;
+}
+aside h3{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 15px 0;
+}
+aside h4{
+    display: inline;
+    width: 250px;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+    line-height: 1.8;
+}
+aside h4:hover{
+    border-bottom: 1px solid #023933;
+}
+aside li{
+    color: #023933;
+    list-style-type: disc;
+    list-style-position: outside;
+}
+/* ---articles--- */
+#content{
+    grid-column: 2/-1;
+    place-items:center;
+    margin: 30px 0 0 0;
+}
+#content h3{
+    display: block;
+    position: relative;
+    top: -30px;
+    padding: 10px;
+    border-bottom: 2px dashed #ff6600;
+    margin:30px;
+    font-size: 25px;
+    font-weight: 600;
+}
+#content h4{
+    display: block;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.8;
+    margin: auto;
+}
+.article{
+    background-color: white;
+    margin-bottom: 60px;
+    padding: 30px;
+}
+.img{
+    float: left;
+    width: 50%;
+    height: 250px;
+    object-fit: cover;
+    padding: 0 15px 15px 0;
+    margin: auto;
+}
+p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: justify;
+    padding: 10px;
+    margin: 5px 0px;
+}
+h5{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0 50px;
+}
+h6{
+    float: right;
+    padding: 5px;
+    color: #888888;
+    border: 1px dashed #dddddd;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.content ul{
+    margin: 0px 90px 10px 70px;
+}
+.content li{
+    list-style-type: disc;
+    list-style-position: inside;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin: 5px 0px;
+}
+

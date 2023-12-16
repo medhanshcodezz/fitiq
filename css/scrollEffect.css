@@ -1,0 +1,13 @@
+.effected{
+    opacity: 0;
+    transform: translateY(100px);
+  
+    transition: 0.8s all ease-in-out;
+}
+
+.appear{
+
+    opacity: 1;
+  
+    transform: translateY(0px);
+}
